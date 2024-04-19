@@ -18,6 +18,8 @@ class Stream
 
     char getChar();
 
+    int peek();
+
     private:
 
         

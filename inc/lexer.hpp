@@ -4,6 +4,7 @@
 #include <string>
 #include <iostream>
 #include "./Stream.hpp"
+#include <cctype>
 
 class Lexer {
 
@@ -13,4 +14,6 @@ class Lexer {
     Lexer() = delete;
 
     Lexer(std::string filename);
+
+    std::string getToken();
 };

@@ -28,3 +28,7 @@ char Stream::getChar()
         return m_stream.get();
     return EOF;
 }
+
+int Stream::peek() {
+    return m_stream.peek();
+}
